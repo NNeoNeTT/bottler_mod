@@ -1,0 +1,39 @@
+<ThingDef ParentName="BenchBase">
+  <defName>WaterBottlerBench</defName>
+  <label>embotelladora de agua</label>
+  <description>Una estación de trabajo que permite a los colonos embotellar agua manualmente si está conectada a la red de agua.</description>
+  <graphicData>
+    <texPath>Things/Building/Production/CraftingSpot</texPath>
+    <graphicClass>Graphic_Single</graphicClass>
+  </graphicData>
+  <costList>
+    <WoodLog>25</WoodLog>
+    <Steel>20</Steel>
+  </costList>
+  <size>(1,1)</size>
+  <altitudeLayer>Building</altitudeLayer>
+  <thingCategories>
+    <li>BuildingsProduction</li>
+  </thingCategories>
+  <comps>
+    <li Class="CompPowerTrader" />
+    <li Class="DubsBadHygiene.CompProperties_WaterNet"/>
+  </comps>
+  <modExtensions>
+    <li Class="DubsBadHygiene.ModExtension_WaterConsumer">
+      <pipeType>Water</pipeType>
+      <waterUsePerTick>0.5</waterUsePerTick>
+    </li>
+  </modExtensions>
+  <building>
+    <workSpeedPenaltyFactor>1</workSpeedPenaltyFactor>
+  </building>
+  <recipes>
+    <li>BottleWaterManually</li>
+  </recipes>
+  <designationCategory>Production</designationCategory>
+  <interactionCellOffset>(0, 0, -1)</interactionCellOffset>
+  <placeWorkers>
+    <li>PlaceWorker_ShowInteractionCell</li>
+  </placeWorkers>
+</ThingDef>

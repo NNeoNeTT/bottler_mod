@@ -1,0 +1,28 @@
+<RecipeDef>
+  <defName>BottleWaterManually</defName>
+  <label>embotellar agua limpia</label>
+  <jobString>embotellando agua limpia...</jobString>
+  <workAmount>800</workAmount>
+  <workSkill>Cooking</workSkill>
+  <workSpeedStat>CookingSpeed</workSpeedStat>
+  <effectWorking>Cook</effectWorking>
+  <products>
+    <li>
+      <thingDef>BottledWater</thingDef>
+      <count>1</count>
+    </li>
+  </products>
+  <ingredients>
+    <li>
+      <filter>
+        <thingDefs>
+          <li>WaterFiltered</li>
+        </thingDefs>
+      </filter>
+      <count>1</count>
+    </li>
+  </ingredients>
+  <recipeUsers>
+    <li>WaterBottlerBench</li>
+  </recipeUsers>
+</RecipeDef>

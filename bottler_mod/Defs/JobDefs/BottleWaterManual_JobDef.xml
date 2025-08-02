@@ -1,0 +1,6 @@
+<JobDef>
+  <defName>BottleWaterManual</defName>
+  <driverClass>DubsWaterPatch.JobDriver_BottleWaterManual</driverClass>
+  <reportString>embotellando agua...</reportString>
+  <workGiver>WorkGiver_BottleWater</workGiver>
+</JobDef>

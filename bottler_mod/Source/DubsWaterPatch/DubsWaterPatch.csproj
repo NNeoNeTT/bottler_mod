@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net472</TargetFramework>
+		<OutputPath>../../Assemblies/</OutputPath>
+		<AssemblyName>DubsWaterPatch</AssemblyName>
+		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+	</PropertyGroup>
+	<ItemGroup>
+		<Reference Include="Assembly-CSharp">
+			<HintPath>../../References/Assembly-CSharp.dll</HintPath>
+		</Reference>
+		<Reference Include="UnityEngine">
+			<HintPath>../../References/UnityEngine.dll</HintPath>
+		</Reference>
+		<Reference Include="BadHygiene">
+			<HintPath>../../References/BadHygiene.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+</Project>

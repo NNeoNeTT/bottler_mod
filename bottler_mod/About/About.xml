@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ModMetaData>
+  <name>Manual Water Bottler</name>
+  <author>ChatGPT + Egidio</author>
+  <packageId>egidio.manualwaterbottler</packageId>
+  <description>Agrega una mesa para embotellar agua manualmente si está conectada a la red hídrica de Dubs Bad Hygiene.</description>
+  <supportedVersions>
+    <li>1.5</li>
+  </supportedVersions>
+</ModMetaData>

@@ -1,0 +1,6 @@
+C:\Users\nneon\Documents\GitHub\bottler_mod\Source\DubsWaterPatch\obj\Debug\net472\DubsWaterPatch.csproj.AssemblyReference.cache
+C:\Users\nneon\Documents\GitHub\bottler_mod\Source\DubsWaterPatch\obj\Debug\net472\DubsWaterPatch.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nneon\Documents\GitHub\bottler_mod\Source\DubsWaterPatch\obj\Debug\net472\DubsWaterPatch.AssemblyInfoInputs.cache
+C:\Users\nneon\Documents\GitHub\bottler_mod\Source\DubsWaterPatch\obj\Debug\net472\DubsWaterPatch.AssemblyInfo.cs
+C:\Users\nneon\Documents\GitHub\bottler_mod\Source\DubsWaterPatch\obj\Debug\net472\DubsWaterPatch.csproj.CoreCompileInputs.cache
+C:\Users\nneon\Documents\GitHub\bottler_mod\Source\DubsWaterPatch\obj\Debug\net472\DubsWaterPatch.sourcelink.json
